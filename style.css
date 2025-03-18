@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  color: white;
+}
+
+a{
+  text-decoration: underline gold;
+  color: #BDBDBD;
+
+}
+
+.main {
+  background-color: black;
+  min-height: 100vh;
+  /* Better than 100% */
+  width: 100%;
+}
+
+.navbar {
+  height: 50px;
+  /* Fixed height */
+}
+
+.nav {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  color: #000;
+  height: 60px;
+  
+}
+
+.nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.nav li {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+}
+
+.white {
+  color: white;
+}
+
+.nav-li a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s;
+}
+
+.nav-li a:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.content {
+  /*background-color: green;*/
+  padding: 35px 10% 0 10%;
+  font-family: "Source Code Pro", monospace;
+}
+
+.dev-info {
+  font-family: "Source Code Pro", monospace;
+  ;
+}
+
+.abt {
+  padding: 20px 0;
+}
+
+.btn {
+  margin: 10px 0px;
+  color: white;
+  background-color: #2A2A2A;
+  padding: 8px 15px;
+  border: solid 2px white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 20px;
+  font-family: "Source Code Pro", monospace;
+}
+
+.btn:hover{
+  background-color: #0056b3;
+}
+
+
+.inp{
+  padding: 3px 0;
+  margin: 0px 0 20px 0;
+  border-radius: 6px;
+  background-color: #B9B9B9;
+}
+
+#about{
+  font-family: "Source Code Pro", monospace;
+}
+
+#about div{
+  
+}
+
+.work-tgr{
+  padding:40px 0 0 0;
+}
+
+#contact {
+  background: white;
+  color: black;
+  padding: 50px;
+  width: 80%;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Contact Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button{
+  background-color: #333333;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #555555;
+}
+
+/* Contact Details */
+.contact-details {
+  margin-top: 20px;
+}
+
+.contact-details a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+/* Social Links */
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: white;
+  background-color: #007bff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  background-color: #0056b3;
+}
